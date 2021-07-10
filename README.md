@@ -20,7 +20,7 @@ lmdb
 
 To predict on competition test set, download our model and alignment files:  
 
-[Alignment_face,Model Weight,Alignment data](https://www.tnt.uni-hannover.de/project/affwild2/aff2alignmentdata_tnt.zip) can be download here with extract code: wk36
+[Alignment_face,Model Weight,Alignment data](https://pan.baidu.com/s/1dUmc8gVv9mlaWvAwQsH5gg) can be download here with extract code: wk36
 
 
 Clone the repository,then download above data and config their path in opts.py before running 
