@@ -2,7 +2,7 @@ import torch
 from torch.utils.data.sampler import Sampler
 from torch.utils.data.dataloader import DataLoader
 import numpy as np
-from models import TwoStreamAuralVisualModel
+from models import TwoStreamAuralVisualSelfCure
 from dataloader import Aff2TestDataset
 from tqdm import tqdm
 import os
@@ -47,7 +47,7 @@ if __name__ == '__main__':
         device = torch.device("cpu")
         print('cpu selected!')
     # model
-    model = TwoStreamAuralVisualModel(num_channels=4)
+    model = TwoStreamAuralVisualSelfCure(num_channels=4)
     modes = model.modes
     # # load the model
     model = model.to(device)

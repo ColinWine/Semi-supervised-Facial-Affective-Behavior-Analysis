@@ -5,7 +5,7 @@ def parse_opt():
     parser = argparse.ArgumentParser()
     parser.add_argument('--lmdb_label_dir', '-lld', type=str, default=r'I:\ABAW_LMDB\lmdb') #Modify this path to lmdb folder, the lmdb folder should contain '.croped_aligned_jpeg' and '.croped_aligned_mask'
     parser.add_argument('--audio_dir', '-ad', type=str, default=r'I:\ABAW_LMDB\extract_audio') #Modify this path to extracted audios
-    parser.add_argument('--model_weight', '-mw', type=str, default=r'L:\ABAW\ABAW2021\experiments\MT_TNT_Pretrain_EMA\pretrain\best.pth') 
+    parser.add_argument('--model_weight', '-mw', type=str, default=r'L:\ABAW\ABAW2021\experiments\MT_TNT_Pretrain_EMA\pretrain\best.pth') #Modify this path to trained weight
 
     parser.add_argument('--task', '-t', type=str, default='ALL', help='task, one of [ALL, EX, AU, VA]')
     parser.add_argument('--root', '-r', type=str, default=r'I:\ABAW_LMDB\aff2_processed')

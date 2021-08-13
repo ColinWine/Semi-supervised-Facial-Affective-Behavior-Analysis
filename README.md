@@ -2,9 +2,8 @@
 *(Submission to the Affective Behavior Analysis in-the-wild ([ABAW](https://ibug.doc.ic.ac.uk/resources/iccv-2021-2nd-abaw/)) 2021 competition)*
 
 This repository presents a multi-task mean teacher model for semi-supervised Affective Behavior Analysis to learn from missing labels and exploring the learning of multiple correlated task simultaneously. 
-Our method is modified from **[Two-Stream Aural-Visual Affect Analysis in the Wild](https://github.com/kuhnkeF/ABAW2020TNT)**. We have modified the preprocessing method of rendering mask to provide better semantics information. After that, we extended TSAV model to semi-supervised model using mean teacher, which allow it to be benefited from unlabeled data. 
 
-For more detail, please check our paper.
+For more detail, please check our paper: [Arxiv](https://arxiv.org/abs/2107.04225).
 ## Required packages
 
 
@@ -30,8 +29,9 @@ Clone the repository,then download above data and config their path in opts.py b
 
 ## Citation
 
-Our paper have been submitted to arxiv and is in the queue to be announced.
-You can find the pdf for our paper in this repository.
+Our paper have been submitted to [Arxiv](https://arxiv.org/abs/2107.04225).
+
+
 
 This repository is based on TSAV, thanks to their excellent work. 
 Please cite their paper of TSAV if this respority helps you.
