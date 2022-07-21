@@ -33,24 +33,7 @@ Our paper have been submitted to [Arxiv](https://arxiv.org/abs/2107.04225).
 
 
 
-This repository is based on TSAV, thanks to their excellent work. 
-Please cite their paper of TSAV if this respority helps you.
-
-    @INPROCEEDINGS {,
-    author = {F. Kuhnke and L. Rumberg and J. Ostermann},
-    booktitle = {2020 15th IEEE International Conference on Automatic Face and Gesture Recognition (FG 2020) (FG)},
-    title = {Two-Stream Aural-Visual Affect Analysis in the Wild},
-    year = {2020},
-    volume = {},
-    issn = {},
-    pages = {366-371},
-    keywords = {expression recognition;action units;affective behavior analysis;human computer interaction;valence arousal;emotion recognition},
-    doi = {10.1109/FG47880.2020.00056},
-    url = {https://doi.ieeecomputersociety.org/10.1109/FG47880.2020.00056},
-    publisher = {IEEE Computer Society},
-    address = {Los Alamitos, CA, USA},
-    month = {may}
-    }
+This repository is based on TSAV, thanks to their excellent work. Please cite their paper of TSAV if this respority helps you.
 
 
 
