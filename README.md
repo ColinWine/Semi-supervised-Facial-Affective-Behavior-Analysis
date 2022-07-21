@@ -33,7 +33,7 @@ Our paper have been submitted to [Arxiv](https://arxiv.org/abs/2107.04225).
 
 
 
-This repository is based on TSAV, thanks to their excellent work. Please cite their paper of TSAV if this respority helps you.
+This repository is based on [TSAV](https://github.com/alexmehta/ABAW-TNT-Modified), thanks to their excellent work. Please cite their paper of TSAV if this respority helps you.
 
 
 
